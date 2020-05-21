@@ -9,9 +9,11 @@ class LandingPage extends Component {
             <>
                 <div className="landingPage">
                 </div>
-                <div className='whoAmI'>
-                    <h1>Rebecca Foster </h1>
-                    <h3> Software Engineer and Textile Artist</h3>
+                <div className='whoAmI' >
+                    <div className='bigInfo'>
+                    <p>Rebecca Foster </p>
+                    <p> Software Engineer and Textile Artist</p>
+                    </div>
                 </div>
                 <div className="flexContainer">
                     <Link to='/WebDevelopment' className="landingPageButtons"> Web Development </Link>

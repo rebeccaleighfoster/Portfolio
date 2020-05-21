@@ -1,6 +1,13 @@
 html{
-  background-color: gray;
+  background-color:rgb(166, 166, 166);
 }
+
+* {
+  box-sizing: border-box;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
  .landingPage{
   background: url("./images/033119_JeanHughesPortraitsLoom-179.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -19,12 +26,41 @@ html{
 
 .whoAmI{
   text-align: center;
-  font-family: "Dancing Script";
-  font-size: 18px;
   background-color: rgb(32, 51, 56, .7);
   color: rgb(255,255,255);
   padding: 2px;
 }
+
+.bigInfo{
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.landingPageButtons{
+  font-size: 30px;
+  background-color: rgb(210, 178, 183, .7);
+  color: black;
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
+  width: 200px;
+  height: 200px; 
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 28px;
+  
+}
+
+.landingPageButtons:hover{
+background-color: rgb(210, 178, 183);
+}
+
 
 .intro{
   height: 100%;
@@ -80,20 +116,6 @@ html{
   transform: translate(-50%, -50%);
   width: 70%;
 }
-.landingPageButtons{
-    font-size: 30px;
-    background-color: rgb(32, 51, 56, .7);
-    color: rgb(255,255,255);
-    padding: 10px;
-    margin: 50px;
-    text-align: center;
-    width: 200px;
-    height: 200px; 
-}
-
-.landingPageButtons:hover{
-  background-color: rgb(32, 51, 56);
-}
 
 .info{
   margin-top: 10px;
@@ -105,17 +127,139 @@ html{
   font-family: "EB Garamond";
   line-height: 20px;
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 15px;
+  border-radius: 5px;
 }
+
+
 
 .ParisPic{
   width: 70%;
 }
 
-@media only screen and (min-width: 800px) {
-
-  .ParisPic{
-    width: 50%;
-  }
-
+.ProjectPic{
+  width: 95%;
 }
+
+.rela-block {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+.rela-inline {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+}
+.floated {
+  display: inline-block;
+  position: relative;
+}
+
+.abs-center {
+  display: false;
+  position: absolute;
+  margin: false;
+  top: 50%;
+  left: 50%;
+  right: false;
+  bottom: false;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  width: 88%;
+}
+body {
+  background-color:rgb(166, 166, 166);
+}
+
+.top-bar {
+  height: 220px;
+  background-color: rgb(32, 51, 56);
+  color: #fff;
+}
+.name {
+  position: absolute;
+  left: calc(350px + 5%);
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  text-align: center;
+  font-size: 58px;
+  letter-spacing: 8px;
+  font-weight: 100;
+  line-height: 60px;
+}
+.name div {
+  width: 94%;
+}
+
+.ResumePic{
+  width: 90%;
+  padding: 20px
+}
+.side-bar {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  width: 350px;
+  background-color: rgb(210, 178, 183);
+  line-height: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 30px 30px 50px;
+  margin-bottom: 10px;
+}
+
+.social {
+  padding-left: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.side-header {
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 60px auto 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.list-thing {
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.content-container {
+  margin-right: 0;
+  width: calc(95% - 350px);
+  padding: 25px 40px 50px;
+}
+.content-container > * {
+  margin: 0 auto 25px;
+}
+.content-container > h3 {
+  margin: 0 auto 5px;
+}
+.content-container > p.long-margin {
+  margin: 0 auto 50px;
+}
+.title {
+  width: 80%;
+  text-align: center;
+}
+.separator {
+  width: 240px;
+  height: 2px;
+  background-color: #999;
+}
+
+/* @media screen and (max-width: 1150px) {
+  .name {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 38px;
+    letter-spacing: 6px;
+    font-weight: 100;
+    line-height: 48px;
+  }
+} */

@@ -8,7 +8,7 @@ class WebDevelopment extends Component {
             <div>
                 <Header />
                 <div className="info">
-                    <h2> Hi there! My name is Rebecca. </h2>
+                    <h2 className='bigInfo'> Hi there! My name is Rebecca. </h2>
                     <img
                     src={require("../images/IMG_8145.jpg")}
                     className="ParisPic"

@@ -5,13 +5,16 @@ class Header extends Component {
     render() {
         return (
             <div className="intro">
-                <h1 className='headerText'> Rebecca Foster - Full Stack Web Developer and Textile Artist </h1>
-                <Link className="HeaderLink"> Web Development </Link>
-                <Link className="ProjectLink"> Completed Projects </Link>
-                <Link className="HeaderLink"> Handweaving </Link>
-                <Link className="HeaderLink"> About Me </Link>
-                <Link className="HeaderLink"> Resume </Link>
-                <Link className="HeaderLink"> Connect </Link>
+                        <img
+            src={require("../images/logo-start.png")}
+            className="ResumePic"
+          ></img>
+                <Link to="/WebDevelopment" className="HeaderLink"> Web Development </Link>
+                <Link to="/Projects" className="HeaderLink"> Completed Projects </Link>
+                <Link to="/Art" className="HeaderLink"> Handweaving </Link>
+                <Link to="/AboutRebecca" className="HeaderLink"> About Me </Link>
+                <Link to="/Resume" className="HeaderLink"> Resume </Link>
+                <Link to="/Connect" className="HeaderLink"> Connect </Link>
             </div>
         );
     }

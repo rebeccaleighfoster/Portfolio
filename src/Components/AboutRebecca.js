@@ -14,4 +14,4 @@ function AboutRebecca (props) {
     );
 }
 
-export default AboutRebecca ;
+export default AboutRebecca;

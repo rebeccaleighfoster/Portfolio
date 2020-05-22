@@ -1,51 +1,22 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-
-class ContactMe extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    componentWillMount() {
-
-    }
-
-    componentDidMount() {
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
-    render() {
-        return (
-            <div>
-
-            </div>
-        );
-    }
+import React from "react";
+import Header from "./Header";
+function ContactMe(props) {
+  return (
+    <>
+      <Header />
+      <div className="info">
+        <div className="bigInfo"> Let's Connect!</div>
+        <p>
+          Currently, I am actively looking for a new full-time position. If you
+          are interested in hiring me I'd love to talk to you! I am also open
+          for commissioning textile pieces on commission! If you would like to
+          talk with me, feel free to fill out the form below, or you can reach
+          on social media:
+        </p>
+        .
+      </div>
+    </>
+  );
 }
-
-ContactMe.propTypes = {
-
-};
 
 export default ContactMe;

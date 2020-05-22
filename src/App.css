@@ -41,6 +41,15 @@ html{
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
+.jobTitle{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
 .landingPageButtons{
   font-size: 30px;
   background-color: rgb(210, 178, 183, .7);

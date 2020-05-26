@@ -12,7 +12,7 @@ function Projects(props) {
           <h3> Web Weavers Studio </h3>
           <p>
             A full stack application for handweavers to connect with eachother
-            and log details on projects. Built with React.js, Node, Formik.{" "}
+            and log details on projects. Built with React.js, Node, Postgres, Knex,  Formik.{" "}
           </p>
           <button className="projectButton">
           <img
@@ -39,7 +39,7 @@ function Projects(props) {
         </button>
         <button className="button"> Live Link </button>
         <button className="button"> Repository </button>
-        {/* <div className="singleProject">
+        <div className="singleProject">
           <h3> Astrocyte Quiz </h3>
           <p>
             A fun app to test your knowledge on all things Astrocytes and
@@ -47,7 +47,7 @@ function Projects(props) {
           </p>
           <button className="button"> Live Link </button>
           <button className="button"> Repository </button>
-        </div> */}
+        </div>
         <div className="singleProject">
           <h3> Weavers Guild of Minnesota - Web Manager </h3>
           <p>

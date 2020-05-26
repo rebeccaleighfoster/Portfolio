@@ -7,9 +7,7 @@ class Header extends Component {
         return (
             <div className="intro">
                  <Logo />       
-                <Link to="/WebDevelopment" className="HeaderLink"> Web Development </Link>
-                <Link to="/Projects" className="HeaderLink"> Completed Projects </Link>
-                <Link to="/Art" className="HeaderLink"> Handweaving </Link>
+                {/* <Link to="/Art" className="HeaderLink"> Handweaving </Link> */}
                 {/* <Link to="/AboutRebecca" className="HeaderLink"> About Me </Link> */}
                 <Link to="/Resume" className="HeaderLink"> Resume </Link>
                 <Link to="/Connect" className="HeaderLink"> Connect </Link>

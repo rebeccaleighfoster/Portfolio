@@ -1,5 +1,9 @@
 html{
-  background-color:rgb(166, 166, 166);
+  background-color:rgb(#dcbfc2);
+}
+
+body{
+  background-color:#dcbfc2 ;
 }
 
 * {
@@ -9,17 +13,19 @@ html{
 }
 
  .landingPage{
-  background: url("./images/033119_JeanHughesPortraitsLoom-179.jpg") no-repeat center center fixed;
-  background-size: cover;
-  background-position: center;
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background-color: #ac9194;;
+  border-style: solid;
+  border-color: rgb(32, 51, 56);
+  color: black;
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
+  font-size: 24px;
  }
 
 
@@ -38,7 +44,7 @@ html{
   line-height: 28px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid  rgb(32, 51, 56);
 }
 
 .jobTitle{
@@ -50,45 +56,27 @@ html{
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.landingPageButtons{
-  font-size: 30px;
-  background-color: rgb(210, 178, 183, .7);
-  color: black;
-  padding: 10px;
-  margin: 50px;
-  text-align: center;
-  width: 200px;
-  height: 200px; 
-  font-size: 24px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  line-height: 28px;
-  
-}
-
-.landingPageButtons:hover{
-background-color: rgb(210, 178, 183);
-}
 
 
 .intro{
-  height: 100%;
-  width: 30%;
+  height: 95%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(32, 51, 56, 8);
+  background-color: #ac9194;;
+  border-style: solid;
+  border-color: rgb(32, 51, 56);
+  color: black;
+  margin: 20px;
+
 }
 
-.headerText{
-  font-family: "Dancing Script";
-  font-size: 16px;
-  background-color: rgb(32, 51, 56);
-  color: rgb(255,255,255);
-  text-align: left;
-  padding: 10px;
+.HeaderLink{
+
 }
+
 
 .ProjectLink{
   display: block;
@@ -97,52 +85,21 @@ background-color: rgb(210, 178, 183);
   color: rgb(255,255,255);
 }
 
-.HeaderLink{
-    font-family: "Dancing Script";
-    font-size: 16px;
-    background-color: rgb(32, 51, 56);
-    color: rgb(255,255,255);
-    text-align: left;
-    display: block;
-    padding: 10px;
-}
-
- 
-.intro:hover .HeaderLink{
-  display: block;
-} 
-
-.flexContainer{
-  display:flex;
-  flex-direction: row;  
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  height: 200px;
-  position: fixed;
-  top: 50%;
-  left: 50%; 
-  transform: translate(-50%, -50%);
-  width: 70%;
-}
-
 .info{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 32%;
-  background-color: rgb(210, 178, 183);
-  padding: 12px;
-  font-family: "EB Garamond";
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 20%;
+  background-color: #ac9194;
+  padding: 30px;
   line-height: 20px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border: 1px solid  rgb(32, 51, 56);
 }
 
 
 
 .ParisPic{
-  width: 70%;
+  width: 50%
 }
 
 .ProjectPic{
@@ -177,9 +134,6 @@ background-color: rgb(210, 178, 183);
   text-align: center;
   width: 88%;
 }
-body {
-  background-color:rgb(166, 166, 166);
-}
 
 .top-bar {
   height: 220px;
@@ -211,7 +165,7 @@ body {
   top: 20px;
   left: 5%;
   width: 350px;
-  background-color: rgb(210, 178, 183);
+  background-color: #ac9194;
   line-height: 20px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;

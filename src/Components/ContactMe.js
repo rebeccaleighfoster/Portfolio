@@ -8,12 +8,10 @@ function ContactMe(props) {
         <div className="bigInfo"> Let's Connect!</div>
         <p>
           Currently, I am actively looking for a new full-time position. If you
-          are interested in hiring me I'd love to talk to you! I am also open
-          for commissioning textile pieces on commission! If you would like to
+          are interested in hiring me I'd love to talk to you! If you would like to
           talk with me, feel free to fill out the form below, or you can reach
           on social media:
         </p>
-        .
       </div>
     </>
   );

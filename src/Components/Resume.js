@@ -23,6 +23,7 @@ function Resume(props) {
           <p className="rela-block list-thing">CSS </p>
           <p className="rela-block list-thing">JavaScript & jQuery</p>
           <p className="rela-block list-thing">React.js</p>
+          <p className="rela-block list-thing">TDD with Enzyme and Jest</p>
           <p className="rela-block caps side-header">Back End</p>
           <p className="rela-block list-thing">Node.js</p>
           <p className="rela-block list-thing">PostgreSQL</p>

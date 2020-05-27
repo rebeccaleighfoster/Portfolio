@@ -5,12 +5,10 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/webdevelopment">
           <img
             src={require("../images/logo-start.png")}
-            className="ResumePic"
+            className="logo"
           ></img>
-        </Link>
       </div>
     );
   }

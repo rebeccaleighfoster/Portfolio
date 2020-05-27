@@ -18,92 +18,122 @@ body{
   left: 50%; 
   transform: translate(-50%, -50%);
   font-size: 30px;
-  background-color: #ac9194;;
+  background-color: #ac9194;
   border-style: solid;
   border-color: rgb(32, 51, 56);
   color: black;
   padding: 10px;
   margin: 50px;
   text-align: center;
-  font-size: 24px;
+  font-family: 'Bell MT';
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 600;
  }
 
-
-
-.whoAmI{
-  text-align: center;
-  background-color: rgb(32, 51, 56, .7);
-  color: rgb(255,255,255);
-  padding: 2px;
-}
-
-.bigInfo{
-  font-size: 24px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  line-height: 28px;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid  rgb(32, 51, 56);
-}
-
-.jobTitle{
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  line-height: 28px;
-  margin-bottom: 3px;
-  border-bottom: 1px solid rgb(0, 0, 0);
-}
-
-
-
+ 
 .intro{
   height: 95%;
-  width: 15%;
+  width: 30%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ac9194;;
+  background-color: #ac9194;
   border-style: solid;
   border-color: rgb(32, 51, 56);
   color: black;
-  margin: 20px;
-
-}
-
-.HeaderLink{
-
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Bell MT'
 }
 
 
-.ProjectLink{
+/* .whoAmI{
+  text-align: center;
+  background-color: rgb(32, 51, 56, .7);
+  color: rgb(255,255,255);
+  padding: 2px;
+} */
+
+.bigInfo{
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: auto;
+  padding: 15px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.Link{
+  background-color:Black;
+  color: #dcbfc2;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.Link:hover{
+  color:Black;
+  background-color:transparent;
+ 
+}
+
+.githubLink{
+  background-color: black;
+  height: 50px;
+  margin: 14px;
+  width: auto;
+}
+
+.githubLink:hover{
+  background-color: transparent;
+}
+
+/* .ProjectLink{
   display: block;
   font-size: 14px;
   padding-left: 20px;
   color: rgb(255,255,255);
-}
+} */
 
 .info{
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: 40px;
-  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 35%;
   background-color: #ac9194;
-  padding: 30px;
-  line-height: 20px;
+  padding: 15px;
+  font-size: 22px;
   border: 1px solid  rgb(32, 51, 56);
+  font-family: 'Bell MT'
+}
+
+.headerInfo{
+  font-size: 22px;
 }
 
 
-
-.ParisPic{
+/* .ParisPic{
   width: 50%
-}
+} */
 
 .ProjectPic{
-  width: 95%;
+  width: 50%;
+  padding: 2px;
+  background-color: black;
+}
+
+.ProjectPic:hover{
+  background-color: transparent;
+}
+
+.projectButton{
+  border: transparent;
+  background-color: transparent;
 }
 
 .rela-block {
@@ -179,6 +209,13 @@ body{
   cursor: pointer;
 }
 
+.logo{
+  height: 100px;
+  color: #dcbfc2;
+  margin: 10px;
+}
+
+
 .side-header {
   font-size: 18px;
   letter-spacing: 4px;
@@ -215,6 +252,16 @@ body{
   height: 2px;
   background-color: #999;
 }
+
+.jobTitle{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
 
 /* @media screen and (max-width: 1150px) {
   .name {

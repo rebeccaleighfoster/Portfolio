@@ -50,7 +50,7 @@ class LandingPage extends Component {
             }}
             />
             <div>
-            <Link to="/webdevelopment">
+            <Link to="/about">
                     <div className='landingPage'>
                         <Logo />
                     <p>Rebecca Foster </p>
